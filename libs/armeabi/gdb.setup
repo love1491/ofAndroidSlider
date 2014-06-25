@@ -1,0 +1,6 @@
+set solib-search-path /home/lust/Android/of_v0.8.1_android_release/apps/myApps/ofAndroidSlider//obj/local/armeabi:/home/lust/Android/of_v0.8.1_android_release/apps/myApps/ofAndroidSlider//libs/armeabi
+directory /home/lust/Android/android-ndk-r9b/platforms/android-17/arch-arm/usr/include
+directory /home/lust/Android/of_v0.8.1_android_release/apps/myApps/ofAndroidSlider//src
+directory /home/lust/Android/android-ndk-r9b/sources/cxx-stl/system
+directory /home/lust/Android/of_v0.8.1_android_release/apps/myApps/ofAndroidSlider//libs/armeabi
+

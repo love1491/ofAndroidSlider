@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.898517443.1692179379/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.898517443.1692179379/CPLUS_INCLUDE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.898517443.1692179379/CPLUS_INCLUDE_PATH/value=/usr/include/c++/4.8/
+environment/project/com.android.toolchain.gcc.898517443.1692179379/C_INCLUDE_PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.898517443.1692179379/C_INCLUDE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.898517443.1692179379/C_INCLUDE_PATH/value=/usr/include/
+environment/project/com.android.toolchain.gcc.898517443.1692179379/append=true
+environment/project/com.android.toolchain.gcc.898517443.1692179379/appendContributed=true
+environment/project/com.android.toolchain.gcc.898517443/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.898517443/CPLUS_INCLUDE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.898517443/CPLUS_INCLUDE_PATH/value=/usr/include/c++/4.8/
+environment/project/com.android.toolchain.gcc.898517443/C_INCLUDE_PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.898517443/C_INCLUDE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.898517443/C_INCLUDE_PATH/value=/usr/include/
+environment/project/com.android.toolchain.gcc.898517443/append=true
+environment/project/com.android.toolchain.gcc.898517443/appendContributed=true
