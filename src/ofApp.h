@@ -31,5 +31,6 @@ public:
 
     ofxUIScrollableCanvas *gui;
     void guiEvent(ofxUIEventArgs &e);
+    ofTrueTypeFont Font;
 
 };

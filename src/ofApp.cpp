@@ -30,14 +30,21 @@ void ofApp::setup(){
     gui->getRect()->setWidth(ofGetWidth());
 
     ofAddListener(gui->newGUIEvent, this, &ofApp::guiEvent);
+    Font.loadFont("verdana.ttf",100);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
 }
+int state=-1;
+string StringState="";
 void ofApp::guiEvent(ofxUIEventArgs &e)
 {
+	state=e.widget->getState();
+	stringstream ss;
+	ss<<state;
+	ss>>StringState;
     cout << e.widget->getName() << endl;
     if(e.widget->getName() == "BACKGROUND VALUE")
     {
@@ -52,7 +59,11 @@ void ofApp::guiEvent(ofxUIEventArgs &e)
 }
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	ofPushStyle();
+	ofSetColor(255,0,0);
+	Font.drawString(StringState,200,300);
+	//Font.drawString("112313213213213213123213213213213",100,100);
+	ofPopStyle();
 }
 
 //--------------------------------------------------------------
@@ -98,7 +109,7 @@ void ofApp::touchUp(int x, int y, int id){
 
 //--------------------------------------------------------------
 void ofApp::touchDoubleTap(int x, int y, int id){
-
+	gui->toggleVisible();
 }
 
 //--------------------------------------------------------------
